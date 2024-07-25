@@ -11,6 +11,12 @@ const config = {
   ],
   prefix: "",
   theme: {
+    colors: {
+      black: "#000",
+      white: "#fff",
+      red: "#E95959",
+      blue: "#233773",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -38,8 +44,13 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addVariant }: { addVariant: Function }) {
+      addVariant("children", "& > *");
+      addVariant("children-hover", "& > *:hover");
+    },
+  ],
 } satisfies Config;
 
 export default config;
-
