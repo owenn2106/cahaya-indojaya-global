@@ -1,6 +1,9 @@
 const Products = () => {
   return (
-    <section className="flex justify-center min-h-[50vh] mb-36">
+    <section
+      id="products"
+      className="flex justify-center min-h-[50vh] mb-36 scroll-m-36"
+    >
       <div className="max-w-6xl w-full">
         <div className="flex flex-col items-center gap-6 mb-12">
           <h3 className="text-center font-bold text-3xl text-blue">Products</h3>

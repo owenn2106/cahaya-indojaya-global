@@ -20,7 +20,7 @@ export default function Home() {
       <Photos />
       <FAQ />
 
-      <section className="flex justify-center">
+      <section id="contact" className="flex justify-center scroll-m-36">
         <div className="max-w-6xl min-h-72 w-full flex flex-col items-center justify-center">
           <h3 className="text-3xl font-bold text-blue text-center">
             What are you waiting for?

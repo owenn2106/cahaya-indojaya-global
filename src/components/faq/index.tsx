@@ -7,7 +7,7 @@ import {
 
 const FAQ = () => {
   return (
-    <section className="bg-blue flex justify-center px-8">
+    <section id="faq" className="bg-blue flex justify-center px-8 scroll-m-36">
       <div className="max-w-6xl w-full my-12">
         <div className="flex flex-col items-center">
           <h3 className="text-3xl text-white text-center font-bold">
