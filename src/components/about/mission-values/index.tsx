@@ -15,8 +15,8 @@ const MissionValues = () => {
               distributors by delivering high-value, quality products on time,
               focusing on value for money and safety, and committing to ethical
               business practices. We strive to support the global appreciation
-              of Indonesia's diverse offerings and contribute to the success of
-              our partners.
+              of Indonesia&apos;s diverse offerings and contribute to the
+              success of our partners.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const MissionValues = () => {
               <li>
                 <span className="font-bold text-red">2. Integrity</span>: Our
                 business practices are grounded in honesty, fostering trust and
-                long-term reslationships with our partners.
+                long-term relationships with our partners.
               </li>
               <li>
                 <span className="font-bold text-red">3. Flexibility</span>: We
