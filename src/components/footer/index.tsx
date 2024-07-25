@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="bg-blue min-h-72 py-8 px-12 flex flex-col justify-between">
       <div className="flex flex-col lg:flex-row justify-between">
         <div className="text-white">
-          <h1 className="text-6xl font-bold">CIG</h1>
+          <img src={`images/logo-light.webp`} className="h-28" />
           <p>Delivering to you</p>
           <p>Indonesia&apos;s finest to the World</p>
           <p>When quality meets culture</p>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <Separator className="mb-4" />
+        <Separator className="mt-8 mb-4" />
         <p className="text-white text-end text-xs">
           2024 © Cahaya Indojaya Global. All Rights Reserved.
         </p>

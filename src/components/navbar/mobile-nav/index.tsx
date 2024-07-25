@@ -26,15 +26,15 @@ const MobileNav = () => {
       <SheetContent side="right" className="bg-white border-none">
         <div className="flex h-full flex-col justify-between">
           <div className="grid gap-4 p-6">
-            <div className="flex items-center flex-wrap pt-16 text-blue text-2xl font-bold">
-              Cahaya Indojaya Global
+            <div className="flex items-center">
+              <img src={`images/logo-dark.webp`} className="h-36" />
             </div>
             <nav className="grid gap-2">
               {NAV_ITEMS.map((item) => (
                 <SheetClose key={item.id}>
                   <span
                     onClick={() => delayedJumpTo(item.id)}
-                    className="flex items-start whitespace-nowrap gap-2 rounded-md py-2 px-4 text-lg text-purple font-semibold hover:bg-red hover:text-white"
+                    className="flex items-start whitespace-nowrap gap-2 rounded-md py-2 px-4 text-lg text-blue font-semibold hover:bg-red hover:text-white"
                   >
                     {item.label}
                   </span>
