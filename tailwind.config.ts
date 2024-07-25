@@ -25,6 +25,21 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        hero: "url('/images/hero.webp')",
+        about: "url('/images/about.webp')",
+        one: "url('/images/carousel/one.webp')",
+        two: "url('/images/carousel/two.webp')",
+        three: "url('/images/carousel/three.webp')",
+        four: "url('/images/carousel/four.webp')",
+        five: "url('/images/carousel/five.webp')",
+        six: "url('/images/carousel/six.webp')",
+        seven: "url('/images/carousel/seven.webp')",
+        eight: "url('/images/carousel/eight.webp')",
+        nine: "url('/images/carousel/nine.webp')",
+        ten: "url('/images/carousel/ten.webp')",
+        eleven: "url('/images/carousel/eleven.webp')",
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },

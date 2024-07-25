@@ -2,10 +2,10 @@ const WhyCIG = () => {
   return (
     <section
       id="about"
-      className="bg-red flex justify-center mb-36 scroll-m-36"
+      className="bg-about bg-scroll bg-cover md:bg-fixed flex justify-center mb-36 scroll-m-36"
     >
       <div className="max-w-6xl w-full flex justify-end">
-        <div className="max-w-4xl bg-blue/80 flex-grow p-12">
+        <div className="max-w-4xl bg-blue/90 flex-grow p-12">
           <h3 className="text-white text-3xl font-bold mb-6">
             Why Cahaya Indojaya Global?
           </h3>
