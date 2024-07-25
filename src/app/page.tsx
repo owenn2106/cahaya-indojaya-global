@@ -3,6 +3,7 @@ import FAQ from "@/components/faq";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
+import Photos from "@/components/photos";
 import Products from "@/components/products";
 import Statistics from "@/components/statistics";
 import { Button } from "@/components/ui/button";
@@ -16,6 +17,7 @@ export default function Home() {
       <Statistics />
       <Products />
       <About />
+      <Photos />
       <FAQ />
 
       <section className="flex justify-center">
