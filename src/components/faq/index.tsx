@@ -31,7 +31,7 @@ const FAQ = () => {
           className="w-full text-white border-t border-t-white"
         >
           <AccordionItem value="item-1">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-start">
               What types of products do you offer?
             </AccordionTrigger>
             <AccordionContent>
@@ -42,7 +42,7 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-start">
               What is the minimum order quantity?
             </AccordionTrigger>
             <AccordionContent>
@@ -52,7 +52,7 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-start">
               How do you ensure the quality of your products?
             </AccordionTrigger>
             <AccordionContent>
@@ -62,7 +62,7 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-start">
               Do you provide shipping and logistics services?
             </AccordionTrigger>
             <AccordionContent>
@@ -72,7 +72,9 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
-            <AccordionTrigger>How can I place an order?</AccordionTrigger>
+            <AccordionTrigger className="text-start">
+              How can I place an order?
+            </AccordionTrigger>
             <AccordionContent>
               You can place an order by contacting our team through email or
               phone. We will guide you through the process and provide all
@@ -80,7 +82,7 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-start">
               Can you help me source new brands or products?
             </AccordionTrigger>
             <AccordionContent>
