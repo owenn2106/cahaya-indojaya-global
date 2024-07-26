@@ -14,7 +14,7 @@ const Footer = () => {
           <p>Indonesia&apos;s finest to the World</p>
           <p>When quality meets culture</p>
         </div>
-        <div className="flex gap-x-20 flex-col lg:flex-row items-end lg:items-start gap-y-6 lg:gap-y-0 mb-8 lg:mb-0">
+        <div className="flex gap-x-20 flex-col lg:flex-row gap-y-6 lg:gap-y-0 mb-8 mt-16 lg:mb-0 lg:mt-0">
           {NAV_ITEMS.map((item) => (
             <span
               key={item.id}
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <div>
         <Separator className="mt-8 mb-4" />
-        <p className="text-white text-end text-xs">
+        <p className="text-white text-center text-xs">
           2024 © Cahaya Indojaya Global. All Rights Reserved.
         </p>
       </div>

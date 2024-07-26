@@ -49,7 +49,7 @@ const MissionValues = () => {
               </li>
               <li>
                 <span className="font-bold text-red">
-                  3. Customer Satisfaction
+                  4. Customer Satisfaction
                 </span>
                 : Our clients&apos; needs are our top priority, and we aim to
                 exceed their expectations with exceptional service and reliable
