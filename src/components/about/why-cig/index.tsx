@@ -2,7 +2,7 @@ const WhyCIG = () => {
   return (
     <section
       id="about"
-      className="bg-about bg-scroll bg-cover md:bg-fixed flex justify-center mb-36 scroll-m-36"
+      className="bg-about bg-scroll bg-cover bg-no-repeat md:bg-fixed flex justify-center mb-36 scroll-m-36"
     >
       <div className="max-w-6xl w-full flex justify-end">
         <div className="max-w-4xl bg-blue/90 flex-grow p-12">
