@@ -43,7 +43,11 @@ const Navbar = () => {
         ))}
       </div>
       <div className="flex gap-8 items-center">
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://wa.me/6281321030933"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button className="hidden lg:block">Get Quote</Button>
         </a>
       </div>

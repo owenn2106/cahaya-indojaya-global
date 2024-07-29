@@ -43,7 +43,11 @@ const MobileNav = () => {
             </nav>
           </div>
           <div className="flex flex-col">
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://wa.me/6281321030933"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button className="mb-6 w-full">Get a Quote</Button>
             </a>
             <div className="border-t border-t-blue py-4">

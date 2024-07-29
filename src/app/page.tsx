@@ -28,7 +28,13 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-blue text-center mb-4">
             Get your quote now!
           </h3>
-          <Button>Get a Quote</Button>
+          <a
+            href="https://wa.me/6281321030933"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>Get a Quote</Button>
+          </a>
         </div>
       </section>
 

@@ -3,7 +3,10 @@ import { FileBadge2, PackageCheck, Ship } from "lucide-react";
 const Statistics = () => {
   return (
     <div className="min-h-60 flex justify-center">
-      <div className="flex flex-col justify-center bg-white rounded-3xl w-full max-w-6xl min-h-80 drop-shadow-xl -translate-y-24 py-12">
+      <div
+        id="statistics"
+        className="scroll-m-36 flex flex-col justify-center bg-white rounded-3xl w-full max-w-6xl min-h-80 drop-shadow-xl -translate-y-24 py-12"
+      >
         <h4 className="text-blue font-bold text-center text-3xl mb-12">
           We have over...
         </h4>

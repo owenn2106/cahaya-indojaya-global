@@ -1,3 +1,6 @@
+"use client";
+
+import { jumpTo } from "@/lib/utils";
 import { Button } from "../ui/button";
 
 const Hero = () => {
@@ -11,8 +14,16 @@ const Hero = () => {
         Where Quality Meets Culture
       </h4>
       <div className="flex gap-4">
-        <Button variant="outline">Learn More</Button>
-        <Button>Get Quote</Button>
+        <Button variant="outline" onClick={() => jumpTo("statistics")}>
+          Learn More
+        </Button>
+        <a
+          href="https://wa.me/6281321030933"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>Get Quote</Button>
+        </a>
       </div>
     </div>
   );
