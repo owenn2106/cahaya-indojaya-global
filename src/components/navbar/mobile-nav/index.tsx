@@ -44,7 +44,7 @@ const MobileNav = () => {
           </div>
           <div className="flex flex-col">
             <a
-              href="https://wa.me/6281321030933"
+              href="https://wa.me/6282295231468"
               target="_blank"
               rel="noopener noreferrer"
             >
