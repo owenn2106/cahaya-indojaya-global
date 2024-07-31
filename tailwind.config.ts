@@ -39,6 +39,7 @@ const config = {
         nine: "url('/images/carousel/nine.webp')",
         ten: "url('/images/carousel/ten.webp')",
         eleven: "url('/images/carousel/eleven.webp')",
+        twelve: "url('/images/carousel/twelve.webp')",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

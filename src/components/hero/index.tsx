@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-hero bg-no-repeat bg-scroll md:bg-fixed px-8">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-hero bg-cover bg-no-repeat bg-scroll md:bg-fixed px-8">
       <h2 className="text-center text-4xl font-bold mb-2 text-white">
         Exporting <span className="text-red">Indonesia&apos;s Finest</span> to
         the World
