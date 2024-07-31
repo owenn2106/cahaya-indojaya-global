@@ -31,7 +31,7 @@ const MissionValues = () => {
           <div>
             <ul className="children:leading-10 children:text-blue pt-4 md:pt-0">
               <li>
-                <span className="font-bold text-red">1. Quantity</span>: We are
+                <span className="font-bold text-red">1. Quality</span>: We are
                 dedicated to delivering the highest quality products, ensuring
                 that every item meets rigorous standards of taste and safety.
               </li>
