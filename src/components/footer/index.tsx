@@ -10,20 +10,45 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row justify-between">
         <div className="text-white">
           <img src={`images/logo-light.webp`} className="h-28" />
-          <p>Delivering to you</p>
-          <p>Indonesia&apos;s finest to the World</p>
-          <p>When quality meets culture</p>
-        </div>
-        <div className="flex gap-x-20 flex-col lg:flex-row gap-y-6 lg:gap-y-0 mb-8 mt-16 lg:mb-0 lg:mt-0">
-          {NAV_ITEMS.map((item) => (
-            <span
-              key={item.id}
-              className="cursor-pointer text-white font-bold"
-              onClick={() => jumpTo(item.id)}
+          <div className="flex flex-col">
+            <a
+              href="https://maps.app.goo.gl/BbZfaygq1UA1bKRh9?g_st=iwb"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold mb-2"
             >
-              {item.label}
-            </span>
-          ))}
+              Jl. Margacinta No.14a, Cijaura, Kec. Buahbatu, Kota Bandung, Jawa Barat 40287</a>
+            <a
+              href="https://wa.me/6282295231468"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +62-822-9523-1468</a>
+            <a
+              href="mailto:cig-indonesia@hotmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              cig-indonesia@hotmail.com</a>
+          </div>
+        </div>
+        <div className="flex flex-col justify-between">
+          <div className="flex gap-x-20 flex-col lg:flex-row gap-y-6 lg:gap-y-0 mb-8 mt-16 lg:mb-0 lg:mt-0">
+            {NAV_ITEMS.map((item) => (
+              <span
+                key={item.id}
+                className="cursor-pointer text-white font-bold"
+                onClick={() => jumpTo(item.id)}
+              >
+                {item.label}
+              </span>
+            ))}
+          </div>
+          <div className="text-white flex-col items-end hidden lg:flex">
+            <p>Delivering to you</p>
+            <p>Indonesia&apos;s finest to the World</p>
+            <p>When quality meets culture</p>
+          </div>
         </div>
       </div>
       <div>
