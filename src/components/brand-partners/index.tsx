@@ -19,7 +19,7 @@ const BrandPartners = () => {
           <div className={`w-28 h-1 bg-red`} />
         </div>
         <div className="flex flex-wrap items-center justify-between gap-4 children:flex-[1_1_16rem] px-8 lg:px-0">
-          {BRAND_PARTNERS.slice(0, loadMore ? BRAND_PARTNERS.length : 10).map(
+          {BRAND_PARTNERS.slice(0, loadMore ? BRAND_PARTNERS.length : 12).map(
             (brand) => (
               <div
                 key={brand.name}
