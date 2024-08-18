@@ -21,10 +21,10 @@ const Products = () => {
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-4 children:flex-[1_1_16rem] px-8 lg:px-0">
-          <div className="bg-black h-96 w-72" />
-          <div className="bg-black h-96 w-72" />
-          <div className="bg-black h-96 w-72" />
-          <div className="bg-black h-96 w-72" />
+          <div className="bg-food bg-contain bg-no-repeat bg-center h-96 w-96" />
+          <div className="bg-beverage bg-contain bg-no-repeat bg-center h-96 w-96" />
+          <div className="bg-cooking bg-contain bg-no-repeat bg-center h-96 w-96" />
+          <div className="bg-daily bg-contain bg-no-repeat bg-center h-96 w-96" />
         </div>
       </div>
     </section>

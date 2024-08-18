@@ -41,6 +41,10 @@ const config = {
         ten: "url('/images/carousel/ten.webp')",
         eleven: "url('/images/carousel/eleven.webp')",
         twelve: "url('/images/carousel/twelve.webp')",
+        food: "url('/images/products/food.webp')",
+        beverage: "url('/images/products/beverage.webp')",
+        cooking: "url('/images/products/cooking-essential.webp')",
+        daily: "url('/images/products/daily-products.webp')",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
