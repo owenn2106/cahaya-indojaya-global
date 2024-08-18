@@ -21,10 +21,26 @@ const Products = () => {
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-4 children:flex-[1_1_16rem] px-8 lg:px-0">
-          <div className="bg-food bg-contain bg-no-repeat bg-center h-96 w-96" />
-          <div className="bg-beverage bg-contain bg-no-repeat bg-center h-96 w-96" />
-          <div className="bg-cooking bg-contain bg-no-repeat bg-center h-96 w-96" />
-          <div className="bg-daily bg-contain bg-no-repeat bg-center h-96 w-96" />
+          <div className="h-96 w-96 flex flex-col items-center">
+            <div className="bg-food bg-contain bg-no-repeat bg-center h-96 w-96" />
+            <span className="font-bold text-blue text-2xl">Food</span>
+          </div>
+          <div className="h-96 w-96 flex flex-col items-center">
+            <div className="bg-beverage bg-contain bg-no-repeat bg-center h-96 w-96" />
+            <span className="font-bold text-blue text-2xl">Beverages</span>
+          </div>
+          <div className="h-96 w-96 flex flex-col items-center">
+            <div className="bg-cooking bg-contain bg-no-repeat bg-center h-96 w-96" />
+            <span className="font-bold text-blue text-2xl">
+              Cooking Essentials
+            </span>
+          </div>
+          <div className="h-96 w-96 flex flex-col items-center">
+            <div className="bg-daily bg-contain bg-no-repeat bg-center h-96 w-96" />
+            <span className="font-bold text-blue text-2xl">
+              Female Daily Products
+            </span>
+          </div>
         </div>
       </div>
     </section>

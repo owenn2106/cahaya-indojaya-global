@@ -40,7 +40,7 @@ const BrandPartners = () => {
           <div className="flex justify-center mt-8">
             <span
               onClick={() => setLoadMore(true)}
-              className="cursor-pointer font-bold text-red"
+              className="cursor-pointer font-bold text-blue"
             >
               See All Brand Partners...
             </span>
