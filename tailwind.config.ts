@@ -45,6 +45,7 @@ const config = {
         beverage: "url('/images/products/beverage.webp')",
         cooking: "url('/images/products/cooking-essential.webp')",
         daily: "url('/images/products/daily-products.webp')",
+        snack: "url('/images/products/snack.webp')",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

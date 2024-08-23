@@ -26,6 +26,10 @@ const Products = () => {
             <span className="font-bold text-blue text-2xl">Food</span>
           </div>
           <div className="h-96 w-96 flex flex-col items-center">
+            <div className="bg-snack bg-contain bg-no-repeat bg-center h-96 w-96" />
+            <span className="font-bold text-blue text-2xl">Snacks</span>
+          </div>
+          <div className="h-96 w-96 flex flex-col items-center">
             <div className="bg-beverage bg-contain bg-no-repeat bg-center h-96 w-96" />
             <span className="font-bold text-blue text-2xl">Beverages</span>
           </div>
