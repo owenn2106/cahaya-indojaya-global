@@ -22,7 +22,7 @@ const MissionValues = () => {
         </div>
 
         {/* VALUES */}
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row mb-24">
           <div className="children:text-blue children:text-3xl children:font-bold flex-[1-1-30%] min-w-[15ch]">
             <h3>Our</h3>
             <h3>Values</h3>
@@ -56,6 +56,20 @@ const MissionValues = () => {
                 delivery.
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* VISION */}
+        <div className="flex flex-col md:flex-row">
+          <div className="children:text-blue children:text-3xl children:font-bold flex-[1-1-30%] min-w-[15ch]">
+            <h3>Our</h3>
+            <h3>Vision</h3>
+            <div className={`w-24 h-1 bg-red mt-2`} />
+          </div>
+          <div>
+            <p className="text-blue leading-10 pt-4 md:pt-0">
+              To be the world&apos;s most trusted supplier of authentic Indonesian goods, sharing our rich flavors globally while delivering quality and satisfaction with every product.
+            </p>
           </div>
         </div>
       </div>
