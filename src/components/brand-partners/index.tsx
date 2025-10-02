@@ -12,12 +12,6 @@ const BrandPartners = () => {
       className="flex justify-center min-h-[50vh] mb-36 scroll-m-36"
     >
       <div className="max-w-6xl w-full">
-        <div className="flex flex-col items-center gap-6 mb-12">
-          <h3 className="text-center font-bold text-3xl text-blue">
-            Brand Partners
-          </h3>
-          <div className={`w-28 h-1 bg-red`} />
-        </div>
         <div className="flex flex-wrap items-center justify-between gap-4 children:flex-[1_1_16rem] px-8 lg:px-0">
           {BRAND_PARTNERS.slice(0, loadMore ? BRAND_PARTNERS.length : 12).map(
             (brand) => (
@@ -42,7 +36,7 @@ const BrandPartners = () => {
               onClick={() => setLoadMore(true)}
               className="cursor-pointer font-bold text-blue"
             >
-              See All Brand Partners...
+              See All...
             </span>
           </div>
         )}
